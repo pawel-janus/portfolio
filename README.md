@@ -38,20 +38,35 @@ Vertex AI Gemini 3.8 Flash backend. Demonstrates enterprise AI: ADC authenticati
 
 ## Next.js Projects
 
-Modern Next.js patterns: SSR, ISR, Server Actions, authentication, database integration.
+Modern Next.js 16 App Router patterns: SSR, ISR, Server Actions, route organization. Progressive POC sequence exploring production patterns.
 
-**Catalog:** [nextjs-pocs](https://github.com/pawel-janus/nextjs-pocs) — 11 progressive POCs
+**Highlights:**
 
-**Patterns covered:**
-- Server Components + SSR (async fetch, Suspense)
-- Dynamic routes, loading states, error boundaries
-- Server Actions + progressive enhancement
-- ISR/SSG with revalidation strategies
-- Route Groups + nested layouts
-- NextAuth.js + multi-provider OAuth
-- Firestore integration + optimistic updates
+### [nextjs-ssr-basics](https://github.com/pawel-janus/nextjs-ssr-basics)
 
-All deployed on Cloud Run (GCP).
+Weather dashboard demonstrating Server-Side Rendering (SSR) with Next.js 16 App Router. Async Server Components, Suspense boundaries, error.tsx, Tailwind v4.
+
+`TypeScript` `Next.js 16` `React 19` `Tailwind v4` `Cloud Run`
+
+### [nextjs-server-actions](https://github.com/pawel-janus/nextjs-server-actions)
+
+Weather app with Server Actions and progressive enhancement. Form works without JavaScript. Replaces API Routes with 'use server' functions.
+
+`TypeScript` `Next.js 16` `Server Actions` `useActionState` `Cloud Run`
+
+### [nextjs-isr-ssg](https://github.com/pawel-janus/nextjs-isr-ssg)
+
+Incremental Static Regeneration (ISR) and Static Site Generation (SSG). Popular cities pre-rendered at build time, revalidated every hour. Time-based cache invalidation.
+
+`TypeScript` `Next.js 16` `ISR` `SSG` `Cloud Run`
+
+### [nextjs-route-groups](https://github.com/pawel-janus/nextjs-route-groups)
+
+Route Groups demonstration: different layouts per section, code organization without URL changes. Homepage uses hero layout, weather pages use sticky search bar.
+
+`TypeScript` `Next.js 16` `Route Groups` `Nested Layouts` `Cloud Run`
+
+**In progress:** NextAuth.js authentication, Firestore database integration, multi-provider OAuth.
 
 ---
 
