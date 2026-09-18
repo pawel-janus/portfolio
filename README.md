@@ -12,10 +12,6 @@ TypeScript fullstack developer building production-ready applications on Google 
 
 Building serverless infrastructure, AI applications, and data pipelines on GCP.
 
-**Catalog:** [gcp-ai-pocs](https://github.com/pawel-janus/gcp-ai-pocs) — reference implementations
-
-**Highlights:**
-
 ### [smart-changelog](https://github.com/pawel-janus/smart-changelog)
 
 AI-powered changelog generator. Analyzes GitHub commits and PRs using Gemini, generates human-readable changelogs. Deployed on Cloud Run with MCP server integration.
