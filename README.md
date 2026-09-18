@@ -40,13 +40,23 @@ Vertex AI Gemini 3.8 Flash backend. Demonstrates enterprise AI: ADC authenticati
 
 Modern Next.js 16 App Router patterns: SSR, ISR, Server Actions, route organization. Progressive POC sequence exploring production patterns.
 
-**Highlights:**
-
 ### [nextjs-ssr-basics](https://github.com/pawel-janus/nextjs-ssr-basics)
 
 Weather dashboard demonstrating Server-Side Rendering (SSR) with Next.js 16 App Router. Async Server Components, Suspense boundaries, error.tsx, Tailwind v4.
 
 `TypeScript` `Next.js 16` `React 19` `Tailwind v4` `Cloud Run`
+
+### [nextjs-interactive-weather](https://github.com/pawel-janus/nextjs-interactive-weather)
+
+Client Components and interactivity: city selector, recent searches, API Routes. Demonstrates 'use client', useState/useEffect, useRouter, useSearchParams.
+
+`TypeScript` `Next.js 16` `Client Components` `API Routes` `Zod` `Cloud Run`
+
+### [nextjs-dynamic-routes](https://github.com/pawel-janus/nextjs-dynamic-routes)
+
+Dynamic routes (`/weather/[city]`), loading.tsx, not-found.tsx, generateMetadata for SEO. Shared server-side weatherService. Better SEO, shareable links.
+
+`TypeScript` `Next.js 16` `Dynamic Routes` `Loading States` `Cloud Run`
 
 ### [nextjs-server-actions](https://github.com/pawel-janus/nextjs-server-actions)
 
