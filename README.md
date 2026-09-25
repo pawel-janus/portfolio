@@ -18,6 +18,12 @@ AI-powered changelog generator. Analyzes GitHub commits and PRs using Gemini, ge
 
 `TypeScript` `Fastify` `React` `Gemini` `Cloud Run` `MCP`
 
+### [llm-rag](https://github.com/pawel-janus/llm-rag)
+
+Financial Q&A application using RAG (Retrieval-Augmented Generation) with Gemini 2.5 Flash. Ask questions about SEC quarterly filings in natural language, get answers with citations. Vector search (Vertex AI embeddings + Firestore), context formatting, prompt engineering. Deployed to Cloud Run.
+
+`TypeScript` `Fastify` `React` `Gemini 2.5 Flash` `Vertex AI` `Firestore` `BigQuery` `Cloud Run`
+
 ### [functions-firestore-auth](https://github.com/pawel-janus/functions-firestore-auth)
 
 Serverless full-stack: Firebase Auth (Google sign-in), Firestore database, Cloud Functions backend. JWT verification, user-scoped queries, Firebase Hosting.
